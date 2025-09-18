@@ -1,5 +1,5 @@
 // Password Protection Configuration
-const SITE_PASSWORD = 'wyMkV7Gb'; // Change this to your desired password
+const SITE_PASSWORD = 'wyMkVgb'; // Change this to your desired password
 const SESSION_KEY = 'portfolio_authenticated';
 
 // Function to scroll to hero section
