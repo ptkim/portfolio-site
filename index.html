@@ -11,6 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Password Protection Overlay -->
+    <div id="password-overlay" class="password-overlay">
+        <div class="password-container">
+            <div class="password-content">
+                <h2 class="password-title">Enter Password</h2>
+                <p class="password-subtitle">This site is password protected</p>
+                <form id="password-form" class="password-form">
+                    <input type="password" id="password-input" class="password-input" placeholder="Enter password" required>
+                    <button type="submit" class="password-submit">Access Site</button>
+                </form>
+                <p id="password-error" class="password-error"></p>
+            </div>
+        </div>
+    </div>
+
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav-container">
