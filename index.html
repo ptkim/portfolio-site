@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Kim - Product Designer</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand" onclick="scrollToHero()">
+                <span class="brand-text">P</span>
+            </div>
+            <div class="nav-links">
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#bottom-section" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="intro" class="hero">
+        <div class="container">
+            <div class="hero-description">
+                <h2>Hi there, I'm a product designer driven by craft, guided by outcomes — I turn ideas into beautiful products that help people.
+
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="portfolio-grid">
+                <!-- Interactive Project Cards -->
+                <div class="portfolio-item portfolio-item--large interactive first-row" data-project="project-1">
+                    <div class="portfolio-image">
+                        <img src="images/tile cover/redesign-cover.png" alt="Web Redesign Project" />
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-link">View Project →</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item interactive first-row" data-project="project-2">
+                    <div class="portfolio-image fox-cover-container">
+                        <img src="images/tile cover/fox-cover.png" alt="Fox Project" class="fox-cover-image" />
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-link">View Project →</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item interactive dash-cover-tile">
+                    <div class="portfolio-image">
+                        <img src="images/tile cover/dash-cover.png" alt="Dashboard Project" />
+                    </div>
+                </div>
+
+                <div class="portfolio-item interactive dropbox-ai-tile" data-project="project-3">
+                    <div class="portfolio-image">
+                        <img src="images/tile cover/dropbox-ai-cover.png" alt="Dropbox AI Project" />
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-link">View Project →</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item portfolio-item--small interactive rmn-onboarding-tile" data-project="project-4">
+                    <div class="portfolio-image">
+                        <img src="images/tile cover/RMN-onboarding.png" alt="RMN Onboarding Project" />
+                    </div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-link">View →</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item interactive kyc-tile">
+                    <div class="portfolio-image">
+                        <img src="images/tile cover/kyc.png" alt="KYC Project" />
+                    </div>
+                </div>
+
+                <div class="portfolio-item interactive portfolio-item--large">
+                    <div class="portfolio-image">
+                        <img src="images/tile cover/csdisco-dsys.png" alt="CS Disco Design System" />
+                    </div>
+                </div>
+
+                <!-- 4th Row -->
+                <div class="portfolio-item interactive fourth-row-tile">
+                    <div class="portfolio-image">
+                        <img src="images/tile cover/awareness.png" alt="Awareness Project" />
+                    </div>
+                </div>
+
+                <div class="portfolio-item interactive fourth-row-tile indeed-tile">
+                    <div class="portfolio-image">
+                        <img src="images/tile cover/indeed.png" alt="Indeed Project" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <div class="container">
+            <div class="work-grid">
+                <div class="work-item">
+                    <div class="work-header">
+                        <div class="work-logo">
+                            <img src="images/stripe-logo.png" alt="Stripe" class="logo-image" />
+                        </div>
+                        <div class="work-info">
+                            <h3 class="work-company">Stripe</h3>
+                            <h4 class="work-role">Staff Product Designer</h4>
+                            <p class="work-location">Mar 2025 - Present</p>
+                        </div>
+                    </div>
+                    <p class="work-description">Currently designing for Stripe's next-gen KYC verification and optimizing onboarding flows, resulting in significant reductions in drop-off rates and improved platform revenue.</p>
+                </div>
+                
+                <div class="work-item">
+                    <div class="work-header">
+                        <div class="work-logo">
+                            <img src="images/dropbox-logo.png" alt="Dropbox" class="logo-image" />
+                        </div>
+                        <div class="work-info">
+                            <h3 class="work-company">Dropbox</h3>
+                            <h4 class="work-role">Lead Product Designer</h4>
+                            <p class="work-location">Apr 2020 - Mar 2025</p>
+                        </div>
+                    </div>
+                    <p class="work-description">Led the redesign of Dropbox web properties, significantly boosting engagement and growth. Designed and shipped AI-powered features, enhancing user productivity, and managed critical API migrations for enterprise solutions.</p>
+                </div>
+                
+                <div class="work-item">
+                    <div class="work-header">
+                        <div class="work-logo">
+                            <img src="images/csdisco-logo.png" alt="CS Disco" class="logo-image" />
+                        </div>
+                        <div class="work-info">
+                            <h3 class="work-company">CS Disco</h3>
+                            <h4 class="work-role">Senior Product Designer</h4>
+                            <p class="work-location">Dec 2019 - Apr 2020</p>
+                        </div>
+                    </div>
+                    <p class="work-description">Established CS Disco's inaugural unified design system, streamlining development and fostering scalable product growth.</p>
+                </div>
+                
+                <div class="work-item">
+                    <div class="work-header">
+                        <div class="work-logo">
+                            <img src="images/indeed-logo.png" alt="Indeed" class="logo-image" />
+                        </div>
+                        <div class="work-info">
+                            <h3 class="work-company">Indeed</h3>
+                            <h4 class="work-role">Senior UX Designer</h4>
+                            <p class="work-location">Jan 2018 - Dec 2019</p>
+                        </div>
+                    </div>
+                    <p class="work-description">Developed and implemented UX strategy for Indeed's internal tools, creating a design system that reduced shipping time and improved engineering efficiency across multiple departments.</p>
+                </div>
+                
+                <div class="work-item">
+                    <div class="work-header">
+                        <div class="work-logo">
+                            <img src="images/retailmenot-logo.png" alt="RetailMeNot" class="logo-image" />
+                        </div>
+                        <div class="work-info">
+                            <h3 class="work-company">RetailMeNot</h3>
+                            <h4 class="work-role">Senior UX Designer</h4>
+                            <p class="work-location">Oct 2016 - Dec 2017</p>
+                        </div>
+                    </div>
+                    <p class="work-description">Led user experience for advertising and reporting tools, optimizing advertising product design to generate 400% more revenue and establishing an attribution model dashboard for Sales and clients to track ROI.</p>
+                </div>
+                
+                <div class="work-item">
+                    <div class="work-header">
+                        <div class="work-logo">
+                            <img src="images/livenation-logo.png" alt="Live Nation" class="logo-image" />
+                        </div>
+                        <div class="work-info">
+                            <h3 class="work-company">Live Nation</h3>
+                            <h4 class="work-role">Web Designer</h4>
+                            <p class="work-location">Jun 2015 - Oct 2016</p>
+                        </div>
+                    </div>
+                    <p class="work-description">Facilitated product design and marketing strategy for 18 digital platforms in 7 countries, resulting in 30% increase in site traffic and 70% increase in social sharing through mobile-optimized landing pages.</p>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-header">
+                        <div class="work-logo">
+                            <img src="images/austinstone-logo.png" alt="Live Nation" class="logo-image" />
+                        </div>
+                        <div class="work-info">
+                            <h3 class="work-company">Austin Stone</h3>
+                            <h4 class="work-role">Web Designer</h4>
+                            <p class="work-location">Jun 2012 - Jun 2015</p>
+                        </div>
+                    </div>
+                    <p class="work-description">Refreshed the Institute's website presence with updated content and improved user experience, increasing site traffic and program enrollment to over 100 students while systematizing recruiting and training processes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Bottom Section -->
+    <section id="bottom-section" class="bottom-section">
+        <div class="container">
+            <div class="bottom-content">
+                <div class="bottom-text">
+                    <h2 class="bottom-status">Currently crafting at <a href="https://stripe.com" target="_blank" class="bottom-stripe">Stripe</a></h2>
+                    <div class="bottom-contact">
+                        <a href="mailto:ptkim26@gmail.com" class="bottom-email">ptkim26@gmail.com</a>
+                        <a href="https://www.linkedin.com/in/ptkim26/" target="_blank" class="bottom-linkedin">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="bottom-image">
+                    <img src="images/profile-pic.webp" alt="Paul Kim" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
